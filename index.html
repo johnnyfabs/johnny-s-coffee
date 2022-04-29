@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Johnny's Coffee</title>
+    <link rel="stylesheet" href="./style1.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="header" id="title">
+      <nav>
+        <a href="./index.html"><img src="./images/download.png" alt="" /> </a>
+
+        <div class="nav-links">
+          <ul>
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="#story">ABOUT US</a></li>
+            <li><a href="#gallery">GALLERY</a></li>
+            <li><a href="#menu-list">MENU</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="text-box">
+        <h1>Welcome To Johnny's Coffee</h1>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus
+          asperiores quo suscipit <br />
+          similique nesciunt accusantium, quisquam ipsa et nam eveniet!
+        </p>
+        <a href="" class="hero-btn">For More Information</a>
+      </div>
+    </section>
+    <br />
+
+    <!-- Featured product -->
+    <section class="campus">
+      <h1>Featured Product</h1>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+
+      <div class="row">
+        <div class="campus-col">
+          <img src="./images/esp1.jpg" />
+          <div class="layer">
+            <h3>COFFEE</h3>
+          </div>
+        </div>
+
+        <div class="campus-col">
+          <img src="./images/cc3.jpg" />
+          <div class="layer">
+            <h3>DESSERTS</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="./images/cl3.jpg" />
+          <div class="layer">
+            <h3>SPECIALS</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br />
+    <!-- ABOUT -->
+    <section class="about-us" id="story">
+      <h1>ABOUT US</h1>
+     
+        <div class="two-colum-wrapper">
+          <div class="profile-image-wrapper">
+            <img src="./images/coffeehouse-2600877__340.webp" />
+          </div>
+          <div class="profile-content-wrapper">
+            <h1>Hi, thanks for visting my site</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Necessitatibus laboriosam fugiat commodi maxime consequuntur
+              dolore ratione aperiam quas quo eos.
+            </p>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi
+              nulla deserunt in culpa ducimus? Consectetur ducimus odio nobis,
+              inventore cumque voluptatum quasi dicta expedita voluptates,
+              veniam doloribus neque quaerat, mollitia corrupti cupiditate vero?
+              Commodi odit culpa necessitatibus accusamus quidem impedit!
+            </p>
+          </div>
+        </div>
+    </section>
+    <br />
+    <!-- GALLERY -->
+    <section class="gallery-sec" id="gallery">
+      <!-- Slideshow container -->
+      <h1>GALLERY</h1>
+      <div class="slideshow-container">
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 5</div>
+          <img src="./images/frappe4.jpg" style="width: 70%" class="center" />
+          <div class="text"></div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 5</div>
+          <img src="./images/cc2.jpg" style="width: 70%" class="center" />
+          <div class="text"></div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 5</div>
+          <img src="./images/frappe1.jpg" style="width: 70%" class="center" />
+          <div class="text"></div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 5</div>
+          <img src="./images/l cap3.jpg" style="width: 70%" class="center" />
+          <div class="text"></div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">5 / 5</div>
+          <img src="./images/cl2.jpg" style="width: 70%" class="center" />
+          <div class="text"></div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br />
+
+      <!-- The dots/circles -->
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+      </div>
+    </section>
+    <!-- MENU  -->
+    <section class="bg-container">
+      <div class="container" id="menu-list">
+        <div class="menu">
+          <h1 class="menu-group-heading">MENU</h1>
+          <div class="menu-group">
+            <div class="menu-item">
+              <img
+                class="menu-item-image"
+                src="./images/cl4.jpg"
+                alt="caramel latte"
+              />
+              <div class="menu-item-text">
+                <h3 class="menu-item-heading">
+                  <span class="menu-item-name">Caramel Latte</span>
+                  <span class="separator"></span>
+                  <span class="menu-item-price">$19.25</span>
+                </h3>
+                <p class="menu-item-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Molestiae dolor veritatis reiciendis nesciunt rem voluptas
+                  facere doloremque a inventore accusantium?
+                </p>
+              </div>
+            </div>
+            <div class="menu-item">
+              <img
+                class="menu-item-image"
+                src="./images/l cap3.jpg"
+                alt="light Cappuccino"
+              />
+              <div class="menu-item-text">
+                <h3 class="menu-item-heading">
+                  <span class="menu-item-name">Light Cappuccino</span>
+                  <span class="separator"></span>
+                  <span class="menu-item-price">$12.99</span>
+                </h3>
+                <p class="menu-item-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+                  quisquam expedita quis dolorum nisi accusantium voluptatibus
+                  rem sapiente illum voluptates.
+                </p>
+              </div>
+            </div>
+            <div class="menu-item">
+              <img
+                class="menu-item-image"
+                src="./images/cc3.jpg"
+                alt=">Cheesecake"
+              />
+              <div class="menu-item-text">
+                <h3 class="menu-item-heading">
+                  <span class="menu-item-name">Cheesecake</span>
+                  <span class="separator"></span>
+                  <span class="menu-item-price">$15.99</span>
+                </h3>
+                <p class="menu-item-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+                  quisquam expedita quis dolorum nisi accusantium voluptatibus
+                  rem sapiente illum voluptates.
+                </p>
+              </div>
+            </div>
+            <div class="menu-item">
+              <img
+                class="menu-item-image"
+                src="./images/cm2.jpg"
+                alt="Caramel Maccchiato"
+              />
+              <div class="menu-item-text">
+                <h3 class="menu-item-heading">
+                  <span class="menu-item-name">Caramel Maccchiato</span>
+                  <span class="separator"></span>
+                  <span class="menu-item-price">$13.99</span>
+                </h3>
+                <p class="menu-item-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+                  quisquam expedita quis dolorum nisi accusantium voluptatibus
+                  rem sapiente illum voluptates.
+                </p>
+              </div>
+            </div>
+            <div class="menu-item">
+              <img
+                class="menu-item-image"
+                src="./images/esp3.jpg"
+                alt="Espresso"
+              />
+              <div class="menu-item-text">
+                <h3 class="menu-item-heading">
+                  <span class="menu-item-name">Espresso</span>
+                  <span class="separator"></span>
+                  <span class="menu-item-price">$20.99</span>
+                </h3>
+                <p class="menu-item-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+                  quisquam expedita quis dolorum nisi accusantium voluptatibus
+                  rem sapiente illum voluptates.
+                </p>
+              </div>
+            </div>
+            <div class="menu-item">
+              <img
+                class="menu-item-image"
+                src="./images/frappe4.jpg"
+                alt="Frappe"
+              />
+              <div class="menu-item-text">
+                <h3 class="menu-item-heading">
+                  <span class="menu-item-name">Frappe</span>
+                  <span class="separator"></span>
+                  <span class="menu-item-price">$10.99</span>
+                </h3>
+                <p class="menu-item-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+                  quisquam expedita quis dolorum nisi accusantium voluptatibus
+                  rem sapiente illum voluptates.
+                </p>
+              </div>
+            </div>
+            <div class="menu-item">
+              <img
+                class="menu-item-image"
+                src="./images/mocha1.jpg"
+                alt="Mocha"
+              />
+              <div class="menu-item-text">
+                <h3 class="menu-item-heading">
+                  <span class="menu-item-name">Mocha</span>
+                  <span class="separator"></span>
+                  <span class="menu-item-price">$9.99</span>
+                </h3>
+                <p class="menu-item-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+                  quisquam expedita quis dolorum nisi accusantium voluptatibus
+                  rem sapiente illum voluptates.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <div class="contact-container" id="contact">
+      <div style="text-align: center">
+        <h2>Contact Us</h2>
+        <p>Swing by for a cup of coffee, or leave us a message:</p>
+      </div>
+      <div class="row-cont">
+        <div class="column-cont">
+          <img src="./images/screen-3.webp" style="width: 100%" />
+        </div>
+        <div class="column-cont">
+          <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="Your name.."
+            />
+            <label for="lname">Last Name</label>
+            <input
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="Your last name.."
+            />
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+            <label for="subject">Subject</label>
+            <textarea
+              id="subject"
+              name="subject"
+              placeholder="Write something.."
+              style="height: 170px"
+            ></textarea>
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <br />
+    <br />
+    <section class="bottom">
+      <div class="end">
+        <p>copyright&copy;2022</p>
+        <h3>
+          <a href="#title">BACK TO TOP</a>
+        </h3>
+      </div>
+    </section>
+    <!-- javaScript for menu -->
+    <script src="app.js"></script>
+  </body>
+</html>
